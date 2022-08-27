@@ -286,7 +286,7 @@ main {
 
 .container {
   width: 80vw;
-  min-width: var(--fixed-width);
+  max-width: var(--fixed-width);
 }
 
 .review {
@@ -350,6 +350,8 @@ main {
 }
 
 #job {
+  margin: 0 auto;
+  margin-bottom: 2rem;
   color: var(--secondary-500);
   text-transform: uppercase;
 }
